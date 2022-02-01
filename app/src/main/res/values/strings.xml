@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Contacts</string>
+
+    <!-- Home Page -->
+    <string name="home_page_title">Contacts</string>
+    <string name="home_page_subtitle">Personnes</string>
+    <string name="home_page_input_search">Rechercher par nom...</string>
+    <string name="home_page_date_text">Créé le </string>
+
+    <!-- Add Page -->
+    <string name="add_person_page_title">Nouveau contact</string>
+    <string name="add_person_page_desc">Vous pouvez ajouter un contact sans numéro cher utilisateur.</string>
+    <string name="add_person_page_first_nom_input">Entrer votre prenom</string>
+    <string name="add_person_page_last_name_input">Entrer votre nom</string>
+    <string name="add_person_page_email_input">Entrer votre email</string>
+    <string name="add_person_page_date_nais_input">Entrer votre date de naissance</string>
+    <string name="add_person_page_clef_input">Entrer une cle</string>
+    <string name="add_person_page_button_submit">Ajouter</string>
+    <string name="add_person_page_nb">Le format de la date de naissance: YYYY-MM-DD</string>
+    <string name="image_alt">My image</string>
+
+    <!-- Person Details Page -->
+    <string name="person_details_page_title">Details du contact</string>
+    <string name="person_details_page_button">Modifier</string>
+    <string name="person_details_page_button_delete">Supprimer</string>
+    <string name="person_details_page_first_name_text">Prénom</string>
+    <string name="person_details_page_last_name_text">Nom</string>
+    <string name="person_details_page_email_text">Email</string>
+    <string name="person_details_page_date_naissance_text">Date de Naissance</string>
+    <string name="person_details_page_date_enregistrement_text">Enregistré le</string>
+    <string name="person_details_page_date_modification_text">Modifié le</string>
+
+
+</resources>

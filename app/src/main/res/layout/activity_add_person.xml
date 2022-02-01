@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddPerson">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="345dp"
+        android:layout_height="155dp"
+        android:layout_marginTop="24dp"
+        android:orientation="vertical"
+        android:background="@drawable/box_title_style"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/box_title_style">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/avatar_contact"
+                android:layout_width="133dp"
+                android:layout_height="116dp"
+                android:layout_marginStart="16dp"
+                app:civ_border_color="@color/lightGray"
+                app:civ_border_width="2dp"
+                android:background="@drawable/avatar_card_style"
+                android:contentDescription="@string/image_alt"
+                android:src="@drawable/my_photo"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/add_person_title"
+                style="@style/CustomSubTitleStyleWhite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="44dp"
+                android:text="@string/add_person_page_title"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.285"
+                app:layout_constraintStart_toEndOf="@+id/avatar_contact"
+                app:layout_constraintTop_toTopOf="parent"
+                />
+
+            <TextView
+                android:id="@+id/add_person_desc"
+                style="@style/CustomSmallTextStyleWhite"
+                android:layout_width="168dp"
+                android:layout_height="38dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/add_person_page_desc"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.428"
+                app:layout_constraintStart_toEndOf="@+id/avatar_contact"
+                app:layout_constraintTop_toBottomOf="@+id/add_person_title" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="412dp"
+        android:layout_height="537dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="1.0">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <EditText
+                android:id="@+id/add_person_first_name"
+                android:layout_width="335dp"
+                android:layout_height="46dp"
+                android:layout_marginTop="56dp"
+                android:ems="10"
+                android:hint="@string/add_person_page_first_nom_input"
+                android:inputType="textPersonName"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.506"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/add_person_last_name"
+                android:layout_width="335dp"
+                android:layout_height="46dp"
+                android:layout_marginTop="32dp"
+                android:ems="10"
+                android:hint="@string/add_person_page_last_name_input"
+                android:inputType="textPersonName"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.506"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/add_person_first_name" />
+
+            <EditText
+                android:id="@+id/add_person_email"
+                android:layout_width="335dp"
+                android:layout_height="46dp"
+                android:layout_marginTop="32dp"
+                android:ems="10"
+                android:hint="@string/add_person_page_email_input"
+                android:inputType="textPersonName"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.506"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/add_person_last_name" />
+
+            <EditText
+                android:id="@+id/add_person_dateNais"
+                android:layout_width="335dp"
+                android:layout_height="46dp"
+                android:layout_marginTop="32dp"
+                android:ems="10"
+                android:hint="@string/add_person_page_date_nais_input"
+                android:inputType="datetime"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.506"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/add_person_email" />
+
+            <Button
+                android:id="@+id/add_person_button_submit"
+                android:layout_width="181dp"
+                android:layout_height="47dp"
+                android:layout_marginTop="44dp"
+                android:background="@color/rose"
+                android:text="@string/add_person_page_button_submit"
+                android:textColor="@color/white"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.502"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/add_person_dateNais" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="28dp"
+                android:text="@string/add_person_page_nb"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/add_person_button_submit"
+                style="@style/CustomSmallTextStyleRed"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

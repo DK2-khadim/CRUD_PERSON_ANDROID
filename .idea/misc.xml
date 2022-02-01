@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable-anydpi/ic_add_person.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/avatar_card_style.xml" value="0.1145" />
+        <entry key="app/src/main/res/drawable/box_title_style.xml" value="0.1145" />
+        <entry key="app/src/main/res/drawable/ic_baseline_person_search_24.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/input_search_style.xml" value="0.1145" />
+        <entry key="app/src/main/res/layout/activity_add_person.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_person_details.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/person.xml" value="0.45" />
+        <entry key="app/src/main/res/layout/person_card.xml" value="0.19666666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
