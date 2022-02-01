@@ -1,4 +1,4 @@
 # Projet Android 
 ## CRUD 
 
-<img src="demo_app_2_gif.gif"  alt="Demo" />
+![Alt text](demo_app2_gif.gif) / ![(demo_app2_gif.gif)
